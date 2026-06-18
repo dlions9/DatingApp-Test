@@ -44,5 +44,11 @@ namespace API.Controllers
                 return user;
         }
 
+
+        public async Task<string> Name()
+        {
+            return "Name";
+        }
+
     }
 }
