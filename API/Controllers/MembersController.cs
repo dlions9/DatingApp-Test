@@ -45,10 +45,6 @@ namespace API.Controllers
         }
 
 
-        public async Task<string> Name()
-        {
-            return "Name";
-        }
 
     }
 }
